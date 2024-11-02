@@ -52,6 +52,7 @@
           enable = true;
           installCargo = false;
           installRustc = true;
+	  autostart = true;
         };
 
         nixd = {
