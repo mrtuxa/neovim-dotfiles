@@ -22,6 +22,7 @@
     treesitter.enable = true;
     luasnip.enable = true;
     clangd-extensions.enable = true;
+    emmet.enable = true;
 
     auto-save = {
       enable = true;
@@ -68,6 +69,10 @@
           autostart = true;
         };
 	ansiblels.enable = true;
+	html = {
+	  enable = true;
+	  autostart = true;
+	};
       };
     };
 
